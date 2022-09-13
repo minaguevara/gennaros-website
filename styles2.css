@@ -2,6 +2,8 @@
 
 body {
     background: #ffffff;
+    background-image: url(/images/gn.bg4.jpg);
+    background-size: cover;
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
 }
@@ -22,7 +24,7 @@ h1 {
 }
 
 h2 {
-    color: #353535;
+    color: whitesmoke;
     font-size: 2em;
     padding-bottom: 10px;
 }
@@ -33,11 +35,11 @@ h3 {
 }
 
 h3, h3 a {
-    color: #454545;
+    color: #770d15;
 }
 
 p {
-    color: #757575;
+    color: #770d15;
     font-size: 14px;
     font-weight: normal;
     line-height: 24px;
@@ -95,7 +97,7 @@ section {
 #google-map iframe {
     border: 0;
     width: 100%;
-    height: 390px;
+    height: 450px;
 }
 
 /*---------------------------------------
@@ -290,17 +292,21 @@ MENU
     margin-top: 0;
 }
 
+.menu-container > p {
+    padding-bottom: 2rem;
+}
+
 .catering-container > h1 {
     margin-bottom: 0;
 }
 
 .catering-container > p {
     line-height: 1;
+    padding-bottom: 2rem;
 }
 
 .menu-container {
     width: 100%;
-    border-bottom: 1px solid #f2cbbd;
     padding-bottom: 1rem;
 }
 
@@ -346,10 +352,10 @@ MENU
 }
 
 #contact .form-control {
-    background: transparent;
+    background: whitesmoke;
     border: 0;
     border-bottom: 1px solid #dddddd;
-    border-radius: 0;
+    border-radius: 30px;
     box-shadow: none;
     font-size: 14px;
     font-weight: normal;
@@ -359,11 +365,12 @@ MENU
 
 #contact .form-control:hover,
 #contact .form-control:focus {
-    border-bottom-color: #c9c9c9;
+    border-bottom-color: whitesmoke;
 }
 
 #contact input {
     height: 55px;
+    padding: 0 2rem;
 }
 
 #contact button#cf-submit {
@@ -378,6 +385,10 @@ MENU
 #contact button#cf-submit:hover {
     background: #292929;
     color: #ffffff;
+}
+
+#contact textarea {
+    padding: 2rem;
 }
 
 
@@ -400,11 +411,11 @@ footer h2 {
 }
 
 footer a, footer p {
-    color: #909090;
+    color: whitesmoke;
 }
 
 footer strong {
-    color: #d9d9d9;
+    color: whitesmoke;
 }
 
 footer address p {
@@ -418,7 +429,7 @@ footer address p {
 .footer-open-hour {
     background: #770d15;
     background: url('/images/footer-open-hour-bg.png') center center no-repeat;
-    background-size: cover;
+    background-size: 110%;
     border-radius: 20px;
     margin-top: 0;
     padding: 40px 0 40px 80px;
@@ -430,7 +441,7 @@ footer address p {
 }
 
 .footer-open-hour::after {
-    background: rgba(59, 58, 58, 0.85);
+    background:  rgba(74, 74, 74, 0.75);
     content: "";
     position: absolute;
     top: 0;
@@ -452,6 +463,10 @@ footer address p {
 
 .footer-open-hour strong {
     color: #f9f9f9;
+}
+
+.footer-info > h2 {
+    color: #f2cbbd;
 }
 
 
