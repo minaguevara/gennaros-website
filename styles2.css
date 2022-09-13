@@ -367,7 +367,7 @@ MENU
 }
 
 #contact button#cf-submit {
-    background: #f2cbbd;
+    background: #ffbca4;
     border-radius: 0;
     border: 0;
     color: #ffffff;
@@ -513,13 +513,17 @@ RESPONSIVE STYLES
     }
 
     .menu > img {
-        width: 40rem;
+        width: 36.5rem;
         height: auto;
     }
 
     .slide-btn {
-        height: 52rem;
+        height: 47rem;
         width: 2rem;
+    }
+
+    .display-left {
+        display: none;
     }
 
 }
@@ -599,9 +603,5 @@ RESPONSIVE STYLES
 
     h2 {
         font-size: 1.8em;
-    }
-
-    .menu-thumb .menu-info {
-        top: 60%;
     }
 }

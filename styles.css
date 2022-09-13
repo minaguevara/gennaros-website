@@ -281,7 +281,7 @@ PRE LOADER
 }
 
 .custom-navbar .navbar-toggle .icon-bar {
-    background: #252525;
+    background: white;
     border-color: transparent;
 }
 
@@ -553,7 +553,7 @@ MENU
   }
   
   #contact button#cf-submit {
-    background: #f2cbbd;
+    background: #ffbca4;
     border-radius: 0;
     border: 0;
     color: #ffffff;
@@ -763,7 +763,7 @@ MENU
     }
   
     .custom-navbar {
-      background: #ffffff;
+      background: #770d15;
       -webkit-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
       -moz-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
       box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
@@ -784,7 +784,7 @@ MENU
   
     .custom-navbar .nav li a,
     .top-nav-collapse .nav li a {
-      color: #575757;
+      color: white;
     }
   
     .custom-navbar .navbar-nav.navbar-right li {
@@ -819,6 +819,10 @@ MENU
       right: 0;
       bottom: 0;
       margin-top: 30px;
+    }
+
+    #testimonial {
+      background-size: cover;
     }
   }
   
