@@ -722,14 +722,14 @@ MENU
     }
   
     .slider .item {
-      background-image: url(/images/gennaros-sign-2.jpg);
+      background-image: url(/images/gennaros-sign-2.jpg) center center;
       background-size: cover;
-      background-position: center;
-      height: 50rem;
+      background-position:bottom;
+      height: 55rem;
     }
   
     .about-info {
-      padding: 0;
+      padding-bottom: 1rem;
     }
   
     #menu  {
