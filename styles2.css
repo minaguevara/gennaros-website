@@ -2,7 +2,7 @@
 
 body {
     background: #ffffff;
-    background-image: url(/images/gn.bg4.jpg);
+    background-image: url(/images/gn.bg2.jpg);
     background-size: cover;
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
@@ -24,7 +24,7 @@ h1 {
 }
 
 h2 {
-    color: whitesmoke;
+    color: black;
     font-size: 2em;
     padding-bottom: 10px;
 }

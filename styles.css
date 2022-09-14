@@ -4,7 +4,7 @@ body {
     background: #ffffff;
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
-    background-image: url(/images/gn.bg4.jpg);
+    background-image: url(/images/gn.bg2.jpg);
     background-size: cover;
 }
 
@@ -24,7 +24,7 @@ h1 {
 }
 
 h2 {
-    color: whitesmoke;
+    color: black;
     font-size: 2em;
     padding-bottom: 10px;
 }
@@ -391,7 +391,9 @@ HOME
 }
 
 .slider .item-first {
-    background-image: url(../images/slider-image1.jpg);
+    background-image: url(/images/gennaros-sign-1.jpg);
+    background-size: 100%;
+    border-bottom: 1px solid white;
 }
 
 
@@ -413,6 +415,13 @@ HOME
 
 .about-image {
     position: absolute;
+    border: 8px double #770d15;
+}
+
+.about-info > .info-container {
+  background-color: rgba(74, 74, 74, 0.75);
+  padding: 2rem;
+  border-radius: 10px;
 }
 
 /*---------------------------------------
@@ -444,7 +453,7 @@ MENU
 
 #menu-home01 {
   grid-column-start: 1;
-  border-right: 0.5px solid gray;
+  border-right: 3px solid #770d15;
 }
 
 .section-title > a > h2 {
@@ -465,8 +474,8 @@ MENU
 -----------------------------------------*/
 
 #testimonial {
-    background: url('../images/testimonial-bg.png') center center no-repeat;
-    background-size:110%;
+    background: url('../images/testimonial-bg.png') center center repeat-y;
+    background-size: 110%;
 }
 
 #testimonial .owl-dots {
@@ -713,7 +722,10 @@ MENU
     }
   
     .slider .item {
+      background-image: url(/images/gennaros-sign-2.jpg);
+      background-size: cover;
       background-position: center;
+      height: 50rem;
     }
   
     .about-info {
