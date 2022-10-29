@@ -370,20 +370,8 @@ HOME
     border-color: transparent;
 }
 
-.slider .caption {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: left;
-    background-color: rgba(20,20,20,0.2);
-    height: 100%;
-    color: #fff;
-    cursor: e-resize;
-    padding: 4em 0 0 2em;
-}
-
 .slider .item {
-    background-position: inherit;
+    background-position:top;
     background-repeat: no-repeat;
     background-attachment: local;
     background-size: cover;
