@@ -312,7 +312,7 @@ MENU
 
 .catering-container {
     width: 100%;
-    padding-top: 2rem;
+    padding-top: 10rem;
 }
 
 .menu {
@@ -548,6 +548,10 @@ RESPONSIVE STYLES
         height: auto;
     }
 
+    .catering-container {
+        padding-top: 6rem;
+    }
+
     .slide-btn {
         height: 47rem;
         width: 2rem;
@@ -567,6 +571,8 @@ RESPONSIVE STYLES
         height: 350px;
         border-radius: 10px;
         border: 5px double #770d15;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -638,8 +644,7 @@ RESPONSIVE STYLES
     }
 
     footer {
-        padding: 60px 0;
-        padding-bottom: 60px;
+        padding: 0 0 60px 0;
     }
 
     .footer-open-hour {
