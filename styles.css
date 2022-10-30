@@ -27,6 +27,7 @@ h2 {
     color: black;
     font-size: 2em;
     padding-bottom: 10px;
+    text-shadow: 0 0 1px black;
 }
 
 h3 {
@@ -401,8 +402,13 @@ HOME
     padding-bottom: 20px;
 }
 
+.image-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 .about-image {
-    position: absolute;
     border: 8px double #770d15;
 }
 
@@ -521,55 +527,26 @@ MENU
     CONTACT             
 -----------------------------------------*/
 
-#contact .section-title {
+.section-title {
     padding-bottom: 0;
-  }
-  
-  #contact .text-success,
-  #contact .text-danger {
-    display: none;
-  }
-  
-  #contact .form-control {
-    background: whitesmoke;
-    border: 0;
-    border-bottom: 1px solid #dddddd;
-    border-radius: 30px;
-    box-shadow: none;
-    font-size: 14px;
-    font-weight: normal;
-    margin-bottom: 15px;
-    transition: all ease-in-out 0.4s;
-  }
-  
-  #contact .form-control:hover,
-  #contact .form-control:focus {
-    border-bottom-color: #c9c9c9;
-  }
-  
-  #contact input {
-    height: 55px;
-    padding: 0 2rem;
-  }
-  
-  #contact button#cf-submit {
-    background: #ffbca4;
-    border-radius: 0;
-    border: 0;
-    color: #ffffff;
-    font-weight: bold;
-    height: 50px;
-  }
-  
-  #contact button#cf-submit:hover {
-    background: #292929;
-    color: #ffffff;
+  }  
+
+  /*---------------------------------------
+  SLIDESHOW              
+  -----------------------------------------*/
+
+  .slideshow {
+    width: 450px;
+    height: 450px;
+    padding-left: 50px;
   }
 
-  #contact textarea {
-    padding: 2rem;
-}
-  
+  .slideshow > img{
+    width: 450px;
+    height: 450px;
+    border-radius: 20px;
+    border: 8px double #770d15;
+  }
   
   /*---------------------------------------
   FOOTER              
@@ -750,6 +727,17 @@ MENU
     #menu-home01 {
       border-right: transparent;
     }
+
+    .slideshow {
+      padding-left: 0px;
+    }
+
+    .slideshow > img{
+      width: 350px;
+      height: 350px;
+      border-radius: 10px;
+      border: 5px double #770d15;
+    }
   }
   
   
@@ -830,6 +818,17 @@ MENU
 
     #testimonial {
       background-size: cover;
+    }
+
+    .slideshow {
+      padding-left: 0px;
+    }
+
+    .slideshow > img{
+      width: 350px;
+      height: 350px;
+      border-radius: 10px;
+      border: 5px double #770d15;
     }
   }
   
