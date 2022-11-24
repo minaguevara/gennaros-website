@@ -678,12 +678,17 @@ MENU
   
   
   @media only screen and (max-width: 992px) {
+    * {
+      overflow-x: hidden;
+    }
+
     section {
       padding: 3rem 0;
     }
   
     .custom-navbar .section-btn {
       margin-left: 1em;
+      position: relative;
     }
   
     .slider .item {
@@ -728,6 +733,10 @@ MENU
       border-right: transparent;
     }
 
+    #menu-home02 {
+      padding-top: 2rem;
+    }
+
     .slideshow {
       padding-left: 0px;
     }
@@ -745,6 +754,7 @@ MENU
     .custom-navbar .nav li a {
       padding-right: 10px;
       padding-left: 10px;
+      position: relative;
     }
   }
   
