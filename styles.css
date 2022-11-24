@@ -733,6 +733,10 @@ MENU
       border-right: transparent;
     }
 
+    #menu-home02 {
+      padding-top: 2rem;
+    }
+
     .slideshow {
       padding-left: 0px;
     }
