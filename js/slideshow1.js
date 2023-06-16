@@ -13,7 +13,7 @@ function showDivs(n) {
   } else if (n < 0) {
     slideIndex = x.length - 1;
   } else {
-    slideIndex = (n + x.length) % x.length;
+    slideIndex = (slideIndex + n + x.length) % x.length;
   }
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";
