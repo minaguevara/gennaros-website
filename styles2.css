@@ -353,6 +353,13 @@ MENU
   padding-bottom: 1rem;
 }
 
+.seasonal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+
 .catering-container {
   width: 100%;
   padding-top: 10rem;
@@ -367,8 +374,9 @@ MENU
   justify-items: center;
 }
 
-.menu > img {
-  width: 100rem;
+.menu > img,
+.seasonal > img {
+  width: 70rem;
   height: auto;
 }
 
@@ -591,7 +599,8 @@ RESPONSIVE STYLES
     border-bottom: transparent;
   }
 
-  .menu > img {
+  .menu > img,
+  .seasonal > img {
     width: 36.5rem;
     height: auto;
   }
@@ -639,7 +648,14 @@ RESPONSIVE STYLES
     gap: 1rem;
   }
 
-  .takeout-img > img {
+  .seasonal-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .takeout-img > img,
+  .seasonal-img > img {
     width: 35rem;
   }
 }

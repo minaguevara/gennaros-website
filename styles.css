@@ -476,6 +476,28 @@ MENU
   margin-top: 3rem;
 }
 
+.seasonal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+  margin-top: 0;
+}
+
+.seasonal > h3 {
+  font-weight: bold;
+  font-style: italic;
+  color: #770d15;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.menu-seasonal > img {
+  width: 60rem;
+  height: auto;
+}
+
 /*---------------------------------------
     TESTIMONIAL
 -----------------------------------------*/
@@ -758,6 +780,16 @@ footer .social-icon {
     border-radius: 10px;
     border: 5px double #770d15;
   }
+
+  .seasonal {
+    margin-bottom: 10rem;
+  }
+  
+  .menu-seasonal > img {
+    width: 35rem;
+    height: auto;
+  }
+  
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
